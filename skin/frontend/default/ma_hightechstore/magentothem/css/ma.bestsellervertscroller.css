@@ -1,0 +1,91 @@
+.ma-bestseller-vertscroller-wrap .jcarousel-container {
+}
+#ma-bestseller-vertscroller-right, #ma-bestseller-vertscroller-left {
+	height: 5555px !important;
+}
+
+.ma-bestseller-vertscroller-wrap  .jcarousel-container-vertical {
+    width: 172px;
+    height: 345px;
+    padding: 0px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-clip {
+    overflow: hidden;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-clip-vertical {
+    width: 172px;
+    height: 345px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-item {
+    width: 172px;
+    height: 130px;
+}
+.ma-bestseller-vertscroller-wrap .product-image {
+	float: left;
+	margin: 5px 10px 10px 0;
+	border:1px solid #e9e9e9;
+}
+.ma-bestseller-vertscroller-wrap .product-name  {
+	margin: 0 0 5px;
+}
+
+.ma-bestseller-vertscroller-wrap  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.ma-bestseller-vertscroller-wrap .block-content li.item {
+	padding: 0;
+	border-bottom:1px solid #e9e9e9;
+	margin:0 0 5px;
+	height:70px !important;
+	padding:0 0 5px;
+}
+.ma-bestseller-vertscroller-wrap .block-content li.item a{
+	background:none;
+}
+.ma-bestseller-vertscroller-wrap .block-content li .product-name{
+	margin:5px 0 0;
+}
+.ma-bestseller-vertscroller-wrap .block-content li .product-name a{
+	color:#464646;
+	font-size:13px;
+	background:none;
+	padding:0;
+}.ma-bestseller-vertscroller-wrap .block-content li .product-name a:hover {	text-decoration: underline;}
+.ma-bestseller-vertscroller-wrap .block-content li .price-box{
+	margin:0;
+}
+.ma-bestseller-vertscroller-wrap .block-content li .price-box span{
+	font-size:12px;
+	color:#e33939;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.ma-bestseller-vertscroller-wrap .jcarousel-next-vertical, 
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical {
+    background: transparent url(../images/arrow-updown.png) no-repeat 0 0;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	left: 35%;
+	cursor: pointer;
+	display:none !important;
+}
+.ma-bestseller-vertscroller-wrap .jcarousel-next-vertical {
+    bottom: 5px;
+	background-position: 0 100%;
+}
+
+.ma-bestseller-vertscroller-wrap  .jcarousel-next-vertical:hover,
+.ma-bestseller-vertscroller-wrap  .jcarousel-next-vertical:focus {
+    background-position: 0 -28px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical {
+    top: 5px;
+}
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical:hover,
+.ma-bestseller-vertscroller-wrap  .jcarousel-prev-vertical:focus {
+    background-position: 0 -14px;
+}

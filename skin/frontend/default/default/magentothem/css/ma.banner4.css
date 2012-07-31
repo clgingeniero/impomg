@@ -1,0 +1,38 @@
+.ma-banner4-container { }
+.ma-banner4-wrapper {
+    position: relative;
+}
+#ma-banner4-slideshow {
+    overflow: hidden;
+}
+.ma-banner4-nav {}
+.ma-banner4-prev, .ma-banner4-next {
+    position: absolute;
+    top: 45%;
+    z-index:999;
+}
+.ma-banner4-prev {
+    left: 0;
+}
+.ma-banner4-next {
+    right: 0;
+}
+.ma-banner4-prev a, .ma-banner4-next a {
+	width: 9px;
+	height: 28px;
+	padding: 5px;
+	display: block;
+	text-indent: -9999px;
+}
+.ma-banner4-prev a {
+	background: url(../images/bn4-prev.png) no-repeat;
+}
+.ma-banner4-prev a:hover {
+	
+}
+.ma-banner4-next a {
+	background: url(../images/bn4-next.png) no-repeat;
+}
+.ma-banner4-next a:hover {
+	
+}

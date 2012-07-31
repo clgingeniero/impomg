@@ -1,0 +1,146 @@
+.ma-brand-slider-contain {
+	float:left;
+	width:626px;
+	background:#fff;
+	padding:0 26px;
+	width:671px !important;
+	border:1px solid #DEDEDE;
+	margin:10px 0;
+}
+.ma-brand-slider-title {}
+.ma-brand-slider-title h2 {
+	padding:5px;
+}
+.ma-brand-slider {}
+.brand-slider .jcarousel-container {
+    -moz-border-radius: 10px;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.brand-slider .jcarousel-container-horizontal {
+    width: 1000px;
+    padding: 10px 0px;
+	padding-left:40px;
+	margin:0 auto;
+	margin-top:80px
+}
+.brand-slider .jcarousel-clip-horizontal {
+    width:  960px;
+    height: 154px;
+}
+
+.brand-slider .jcarousel-item {
+    width: 112px !important;
+	float: left;
+    list-style: none outside none;
+	text-align:center;
+}
+
+.brand-slider .jcarousel-item-horizontal {
+    margin: 14px 0;
+	position: relative;
+}
+
+.brand-slider .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.brand-slider .product-image {
+	display:inline-block;
+	margin:0 0 8px;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.ma-brand-slider .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0;
+    right: -26px;
+    width: 27px;
+    height: 68px;
+    cursor: pointer;
+    background: transparent url(../images/brand-next.png) no-repeat 0 0;
+}
+
+.ma-brand-slider .jcarousel-next-horizontal:hover {
+    background-position: -27px 0;
+}
+
+.ma-brand-slider .jcarousel-next-horizontal:active {
+    background-position: -27px 0;
+}
+
+.ma-brand-slider .jcarousel-next-disabled-horizontal,
+.ma-brand-slider .jcarousel-next-disabled-horizontal:hover,
+.ma-brand-slider .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -27px 0;
+}
+
+.ma-brand-slider .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0;
+    left: -26px;
+    width: 27px;
+    height: 68px;
+    cursor: pointer;
+    background: transparent url(../images/brand-prev.png) no-repeat 100% 0;
+}
+
+.ma-brand-slider .jcarousel-prev-horizontal:hover {
+    background-position: 0 0;
+}
+
+.ma-brand-slider .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+
+.ma-brand-slider .jcarousel-prev-disabled-horizontal,
+.ma-brand-slider .jcarousel-prev-disabled-horizontal:hover,
+.ma-brand-slider .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0;
+}
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.ma-brand-slider .jcarousel-container {
+    position: relative;
+}
+.ma-brand-slider .jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.ma-brand-slider .jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.ma-brand-slider .jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+.ma-brand-slider .jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+.ma-brand-slider .ma-des {
+	position: absolute;
+	bottom: 10px;
+}
+.ma-brand-slider .ma-des-title {}
+.ma-brand-slider .ma-des-title h2 {
+}
+.ma-brand-slider .ma-des-content {}

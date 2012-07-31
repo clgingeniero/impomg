@@ -1,0 +1,206 @@
+.ma-featured-slider-contain {
+	float:left;
+	width:626px;
+}
+.ma-featured-slider-title {}
+.ma-featured-slider-title h2 {
+	padding:5px;
+}
+.ma-featured-slider {}
+.featured-slider .jcarousel-container {
+    -moz-border-radius: 10px;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.featured-slider .jcarousel-container-horizontal {
+    width: 1000px;
+    padding: 10px 0px;
+	padding-left:40px;
+	margin:0 auto;
+	margin-top:80px
+}
+
+.featured-slider .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 0px 0px;
+}
+
+.featured-slider .jcarousel-clip-horizontal {
+    width:  960px;
+    height: 154px;
+}
+
+.featured-slider .jcarousel-clip-vertical {
+    width:  240px;
+    height: 245px;
+}
+
+.featured-slider .jcarousel-item {
+	float: left;
+    list-style: none outside none;
+	text-align:center;
+}
+
+.featured-slider .jcarousel-item-horizontal {
+    margin-right: 0px;
+}
+
+.featured-slider .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.featured-slider .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.featured-slider .product-image {
+	display:inline-block;
+	margin:0 0 8px;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.ma-featured-slider .jcarousel-next-horizontal {
+    position: absolute;
+    top: 45%;
+    right: -30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/next-slider.png) no-repeat 0 0;
+}
+
+.ma-featured-slider .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.ma-featured-slider .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.ma-featured-slider .jcarousel-next-disabled-horizontal,
+.ma-featured-slider .jcarousel-next-disabled-horizontal:hover,
+.ma-featured-slider .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.ma-featured-slider .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 45%;
+    left: -30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/prev-slider.png) no-repeat 0 0;
+}
+
+.ma-featured-slider .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.ma-featured-slider .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.ma-featured-slider .jcarousel-prev-disabled-horizontal,
+.ma-featured-slider .jcarousel-prev-disabled-horizontal:hover,
+.ma-featured-slider .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.featured-slider .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/next-slider.png) no-repeat 0 0;
+}
+
+.featured-slider .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.featured-slider .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.featured-slider .jcarousel-next-disabled-vertical,
+.featured-slider .jcarousel-next-disabled-vertical:hover,
+.featured-slider .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.featured-slider .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/prev-slider.png) no-repeat 0 0;
+}
+
+.featured-slider .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.featured-slider .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.featured-slider .jcarousel-prev-disabled-vertical,
+.featured-slider .jcarousel-prev-disabled-vertical:hover,
+.featured-slider .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.ma-featured-slider .jcarousel-container {
+    position: relative;
+}
+.ma-featured-slider .jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.ma-featured-slider .jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.ma-featured-slider .jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+.ma-featured-slider .jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
